@@ -69,7 +69,7 @@ a:hover{
     font-size: medium;
 }
 .Placeholder {
-background-color: #ffffff;
+background-color: var(--main-bg-color);
 border-left: none;
 border-right: none;
 border: 2px solid var(--main-bg-color);
@@ -354,6 +354,7 @@ footer {
     .SectionTwo {
         width: 100%;
         margin-top: 50px;
+        margin-left: -2px ;
     }
 
     .cardsActivity {
@@ -372,6 +373,29 @@ footer {
 
     .cardsActivity .card-subtitle {
         font-size: 13px;
+    }
+    .SectionActiv {
+        margin-top: 450px;
+    }
+    .SectionActiv a {
+        height: 250px;
+        width: 150px;
+        border-radius: 15px 15px 15px 15px;
+        background-color: #ffffff;
+        box-shadow: 0px 3px 15px 0px #0000001A;
+        justify-content: space-between;
+    }
+
+    .SectionActiv article{
+        border-radius: 15px 15px 15px 15px;
+    }
+    .SectionActiv img {
+        height: 150px;
+        width: 150px;
+        border-radius: 15px 15px 0 0;
+    }
+    .SectDownPage {
+        margin-top: -200px;
     }
 }
 
