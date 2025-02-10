@@ -166,12 +166,6 @@ input::placeholder {
     align-items: center;
     font-size: small;
 }
-/* le i fou la merde avec les autres icons 
-.fa-solid {
-    color: var(--main-color);
-    font-size: small;
-}
-    */
     .fa-solid {
         color: var(--main-color); 
     }
@@ -398,8 +392,60 @@ footer {
         margin-top: -200px;
     }
 }
-
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    .TwoSection {
+        flex-direction: column;
+    }
+
+    .SectionOne {
+        width: 100%;
+    }
+
+    .SectionTwo {
+        width: 100%;
+        margin-top: 50px;
+        margin-left: -2px ;
+    }
+
+    .cardsActivity {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .cardsActivity a {
+        width: 30%;
+    }
+
+    .cardsActivity .card-title {
+        font-size: 14px;
+    }
+
+    .cardsActivity .card-subtitle {
+        font-size: 13px;
+    }
+    .SectionActiv {
+        margin-top: 450px;
+    }
+    .SectionActiv a {
+        height: 250px;
+        width: 150px;
+        border-radius: 15px 15px 15px 15px;
+        background-color: #ffffff;
+        box-shadow: 0px 3px 15px 0px #0000001A;
+        justify-content: space-between;
+    }
+
+    .SectionActiv article{
+        border-radius: 15px 15px 15px 15px;
+    }
+    .SectionActiv img {
+        height: 150px;
+        width: 150px;
+        border-radius: 15px 15px 0 0;
+    }
+    .SectDownPage {
+        margin-top: -200px;
+    }
 }
