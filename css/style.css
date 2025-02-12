@@ -448,6 +448,7 @@ footer {
     .DivDownPage {
         background-color: red;
     padding-bottom: 80px;
+    margin: 100px; 
     }
     .DivDownPage a {
         margin-top: 10px;
