@@ -22,6 +22,7 @@ header img {
 .NavSpace {
     display: flex;
     justify-content: space-between;
+    padding-right: 15px;
     align-items: center;
 }
 
@@ -266,12 +267,12 @@ input::placeholder {
 }
 /*Activité a Marseille*/
 .SectionActiv {
-height: 600px;
+    margin-bottom: 30px;
 padding-top: 20px;
 position: relative;
 }
 .SectionActiv a {
-    width: calc(25% -20px);
+    width: calc(25% - 20px);
     height: 500px;
     border-radius: 15px 15px 15px 15px;
     background-color: #ffffff;
@@ -296,10 +297,6 @@ position: relative;
     justify-content: space-around;
     padding-right: 20px;
     padding-left: 20px;
-}
-.DivActiv a:hover {
-    padding-top: 20px;
-    opacity: 0.7;
 }
 /*Footer*/
 footer {
@@ -327,7 +324,6 @@ footer {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     .BorderLink {
-    margin-left: -150px;
    }
     .TwoSection {
         flex-direction: column;
@@ -361,8 +357,6 @@ footer {
         font-size: 13px;
     }
     .SectionActiv {
-        margin-top: 450px;
-        margin-left: -100px;
     }
     .SectionActiv a {
         height: 300px;
@@ -374,11 +368,12 @@ footer {
     }
 
     .SectionActiv article{
+        height: auto;
         border-radius: 15px 15px 15px 15px;
     }
     .SectionActiv img {
+
         height: 200px;
-        width: 200px;
         border-radius: 15px 15px 0 0;
     }
     .SectDownPage {
