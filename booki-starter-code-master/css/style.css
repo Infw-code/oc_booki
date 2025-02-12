@@ -272,7 +272,6 @@ height: 600px;
 position: relative;
 }
 .SectionActiv a {
-
     width: 400px;
     height: 500px;
     border-radius: 15px 15px 15px 15px;
@@ -372,11 +371,11 @@ footer {
     }
     .SectionActiv {
         margin-top: 450px;
-        margin-left: -60px;
+        margin-left: -100px;
     }
     .SectionActiv a {
         height: 300px;
-        width: 250px;
+        width: 30%;
         border-radius: 15px 15px 15px 15px;
         background-color: #ffffff;
         box-shadow: 0px 3px 15px 0px #0000001A;
@@ -393,6 +392,7 @@ footer {
     }
     .SectDownPage {
         margin-top: -200px;
+        background-color: violet;
     }
 }
 /****** Media queries ***********/
@@ -446,7 +446,7 @@ footer {
         justify-content: space-between;
     }
     .DivDownPage {
-        background-color: var(--main-bg-color);
+        background-color: red;
     padding-bottom: 80px;
     }
     .DivDownPage a {
