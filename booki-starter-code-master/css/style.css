@@ -272,7 +272,7 @@ height: 600px;
 position: relative;
 }
 .SectionActiv a {
-    width: calc(33% - 30px);
+
     width: 400px;
     height: 500px;
     border-radius: 15px 15px 15px 15px;
@@ -282,7 +282,6 @@ position: relative;
 .SectionActiv article{
     border-radius: 15px 15px 15px 15px;
     height: 500px;
-    height: 100%;
 }
 .SectionActiv img {
     height: 440px;
@@ -337,6 +336,9 @@ footer {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    .BorderLink {
+    margin-left: -150px;
+   }
     .TwoSection {
         flex-direction: column;
     }
@@ -344,7 +346,6 @@ footer {
     .SectionOne {
         width: 100%;
     }
-
     .SectionTwo {
         width: 100%;
         margin-top: 50px;
@@ -355,6 +356,7 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        border-radius: 0 0 15px 15px;
     }
 
     .cardsActivity a {
@@ -370,32 +372,40 @@ footer {
     }
     .SectionActiv {
         margin-top: 450px;
+        margin-left: -60px;
     }
     .SectionActiv a {
-        height: 250px;
-        width: 150px;
+        height: 300px;
+        width: 250px;
         border-radius: 15px 15px 15px 15px;
         background-color: #ffffff;
         box-shadow: 0px 3px 15px 0px #0000001A;
-        justify-content: space-between;
+        margin-left: 20px;
     }
 
     .SectionActiv article{
         border-radius: 15px 15px 15px 15px;
     }
     .SectionActiv img {
-        height: 150px;
-        width: 150px;
+        height: 200px;
+        width: 200px;
         border-radius: 15px 15px 0 0;
     }
     .SectDownPage {
         margin-top: -200px;
     }
 }
-/* Small devices (phones, less than 768px) */
+/****** Media queries ***********/
+ /** Small devices (phones, less than 768px) **/
 @media (max-width: 767.98px) {
     .TwoSection {
         flex-direction: column;
+    }
+    .cards a {
+        width: 28%;
+    }
+    .SectionTwo {
+        padding-bottom: 20px;
     }
     .cardsActivity {
         display: flex;
@@ -404,7 +414,7 @@ footer {
     }
 
     .cardsActivity a {
-        width: 30%;
+        width: 100%;
     }
 
     .cardsActivity .card-title {
@@ -416,16 +426,31 @@ footer {
     }
     .SectionActiv {
         margin-top: 450px;
+        margin-left: -60px;
+    }
+    .SectionActiv a {
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 250px;
     }
     .SectionActiv article{
         border-radius: 15px 15px 15px 15px;
+        height: 250px;
     }
     .SectionActiv img {
         height: 150px;
         width: 150px;
         border-radius: 15px 15px 0 0;
     }
-    .SectDownPage {
-        margin-top: -200px;
+    .DivActiv {
+        justify-content: space-between;
+    }
+    .DivDownPage {
+        background-color: var(--main-bg-color);
+    padding-bottom: 80px;
+    }
+    .DivDownPage a {
+        margin-top: 10px;
     }
 }
+    
