@@ -125,14 +125,17 @@ input::placeholder {
     padding-right: 40px;
     padding-top: 30px;
 }
-
+.forward {
+    padding-left: 20px;
+}
 /*Icon Populaire*/
 .SectionOne {
-    width: 64%;
-    height: auto;
+    width: 68%;
     background-color: var(--main-bg-color);
     border-radius: 30px;
     box-sizing: border-box;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .SectionTwo {
@@ -212,14 +215,14 @@ input::placeholder {
 .cards article {
     justify-content: center;
     padding-top: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 0px 3px 15px 0px #0000001A;
 }
 
 .cards img {
-    border-radius: 20px 20px 0 0;
+    border-radius: 15px 15px 0 0;
 }
 
 .cards a {
@@ -233,7 +236,7 @@ input::placeholder {
 
 .cards a article img {
     width: 100%;
-    height: 180px;
+    height: 140px;
     object-fit: cover;
 }
 
@@ -253,15 +256,9 @@ input::placeholder {
 .cards p {
     margin: 0;
 }
-
 #hebergementlink .card-rating {
     margin-top: 5px;
 }
-
-.forward {
-    padding-left: 25px;
-}
-
 .cardsActivity {
     display: column;
     justify-content: space-around;
@@ -288,16 +285,11 @@ input::placeholder {
 }
 
 .cardsActivity img {
-    border-radius: 20px 0 0 20px;
+    border-radius: 15px 0 0 15px;
 }
-
-.cardsActivity a {
-    width: calc(33% - 30px);
-}
-
 .cardsActivity a article img {
     width: 35%;
-    height: 200px;
+    height: 160px;
     object-fit: cover;
 }
 
@@ -486,7 +478,6 @@ footer {
         margin-right: 10px;
         height: 250px;
     }
-
     .SectionActiv article {
         border-radius: 15px 15px 15px 15px;
         height: 250px;
