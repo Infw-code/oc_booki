@@ -458,7 +458,7 @@ footer {
     }
 
     .cards a {
-        width: 28%;
+        width: 25%;
     }
 
     .SectionTwo {
@@ -477,13 +477,11 @@ footer {
 
     .cardsActivity .card-title {
         font-size: 14px;
-        margin-top: -1px;
+        margin-top: 1px;
     }
-
     .cardsActivity .card-subtitle {
         font-size: 13px;
     }
-
     .SectionActiv {
         max-width: 100%;
     }
@@ -497,6 +495,7 @@ footer {
     .SectionActiv article {
         border-radius: 15px 15px 15px 15px;
         height: 250px;
+        text-align: center;
     }
 
     .SectionActiv img {
@@ -508,10 +507,15 @@ footer {
     .DivActiv {
         justify-content: space-between;
     }
-
+    .cardBleuBlanc h3{
+        padding-bottom: 30px;
+        }
+        .cardsoleilmatin h3 {
+            padding-bottom: 15px;
+        }
     .TitreActiv {
         margin-top: -8px;
-        margin-left: -4px;
+        margin-left: -15px;
     }
 
     .DivDownPage {
