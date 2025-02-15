@@ -501,16 +501,4 @@ footer {
     .DivActiv {
         justify-content: space-between;
     }
-
-    .DivDownPage {
-        padding-bottom: 80px;
-        margin: 100px;
-    }
-
-    .DivDownPage a {
-        margin-top: 10px;
-    }
-    footer {
-        width: 100%;;
-    }
     }
