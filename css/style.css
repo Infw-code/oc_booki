@@ -214,7 +214,7 @@ input::placeholder {
     background-color: var(--main-bg-color);
 }
 .cardgrow{
-    height: 90px;
+    height: 50px;
 }
 .cards article {
     justify-content: center;
@@ -250,17 +250,13 @@ input::placeholder {
 
 .cards div {
     padding-left: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 .cards h3 {
     margin: 5px 0;
+    font-size: medium;
 }
-
-.cards p {
-    margin: 0;
-}
-
 #hebergementlink .card-rating {
     margin-top: 5px;
 }
@@ -385,6 +381,12 @@ footer {
     padding-bottom: 15px;
 }
 
+
+@media (max-width: 1240px) {
+    #canebiere p {
+        margin-top: 2px;
+    }
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
@@ -396,13 +398,14 @@ footer {
     .SectionOne {
         width: 100%;
     }
-
+    #canebiere p {
+margin-top: 2px;
+    }
     .SectionTwo {
         width: 100%;
         margin-top: 50px;
         margin-left: -2px;
     }
-
     .cardsActivity {
         display: flex;
         flex-direction: row;
