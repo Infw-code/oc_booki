@@ -213,7 +213,9 @@ input::placeholder {
     justify-content: space-around;
     background-color: var(--main-bg-color);
 }
-
+.cardgrow{
+    height: 90px;
+}
 .cards article {
     justify-content: center;
     padding-top: 5px;
@@ -391,7 +393,6 @@ footer {
     .TwoSection {
         flex-direction: column;
     }
-
     .SectionOne {
         width: 100%;
     }
@@ -452,13 +453,17 @@ footer {
     .TwoSection {
         flex-direction: column;
     }
-
+    .cardgrow{
+        height: 75px;
+    }
     .flexButton {
         gap: 2px;
     }
-
     .cards a {
-        width: 25%;
+        width: 24%;
+    }
+    .card-title{
+        font-size: 15px;
     }
 
     .SectionTwo {
