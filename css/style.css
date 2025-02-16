@@ -400,9 +400,6 @@ footer {
     .SectionOne {
         width: 100%;
     }
-    #canebiere p {
-margin-top: 2px;
-    }
     .SectionTwo {
         width: 100%;
         margin-top: 50px;
@@ -426,7 +423,9 @@ margin-top: 2px;
     .cardsActivity .card-subtitle {
         font-size: 13px;
     }
-
+    #canebiere p {
+margin-top: 2px;
+    }
     .SectionActiv a {
         height: 300px;
         width: 30%;
@@ -538,3 +537,45 @@ margin-top: 2px;
         height: auto;
     }
 }
+/**
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) *
+@media (max-width: 1024px) {
+    .hebergements-and-populaires {
+        flex-direction: column;
+    }
+
+    .hebergements {
+        width: 100%;
+    }
+
+    .populaires {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .populaires-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .populaires-cards a {
+        width: 30%;
+    }
+
+    .populaires-cards .card-title {
+        font-size: 14px;
+    }
+
+    .populaires-cards .card-subtitle {
+        font-size: 13px;
+    }
+}
+
+/* Small devices (phones, less than 768px) *
+@media (max-width: 767.98px) {
+}
+    /* ... */
