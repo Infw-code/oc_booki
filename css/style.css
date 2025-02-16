@@ -214,7 +214,7 @@ input::placeholder {
     background-color: var(--main-bg-color);
 }
 .cardgrow{
-    height: 50px;
+    height: 60px;
 }
 .cards article {
     justify-content: center;
